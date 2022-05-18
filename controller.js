@@ -1,5 +1,7 @@
 const service = require('./service');
 
 module.exports = input => {
-    const getAlphabetArray = service.getAlphabetArray(input);
+    const alphabetArray = service.getAlphabetArray(input);
+    const toPrintArray = service.algoLogic(alphabetArray);
+    service.printConsole(toPrintArray);
 }
