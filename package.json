@@ -1,0 +1,23 @@
+{
+  "name": "diamond-algo",
+  "version": "1.0.0",
+  "description": "To print alphabets in diamond format",
+  "main": "diamond.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rdev06/diamondAlgo.git"
+  },
+  "keywords": [],
+  "author": "Roshan Dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rdev06/diamondAlgo/issues"
+  },
+  "homepage": "https://github.com/rdev06/diamondAlgo#readme",
+  "devDependencies": {
+    "jest": "^28.1.0"
+  }
+}
