@@ -4,7 +4,8 @@
   "description": "To print alphabets in diamond format",
   "main": "diamond.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --silent",
+    "test:watch":"jest --watchAll"
   },
   "repository": {
     "type": "git",
