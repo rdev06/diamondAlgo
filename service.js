@@ -27,10 +27,5 @@ module.exports = {
       toReturn.push(p);
     }
     return toReturn;
-  },
-  printConsole : array => {
-      for (const e of array) {
-          console.log(e)
-      }
   }
 };

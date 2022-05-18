@@ -3,6 +3,11 @@ const controller = require('./controller');
 
 const input = process.argv.at(-1);
 
-controller(input)
+const toPrint = controller(input);
+
+
+for (const e of toPrint) {
+    console.log(e)
+}
 
 
